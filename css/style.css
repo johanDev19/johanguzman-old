@@ -1,0 +1,112 @@
+* {
+    font-family: inherit;
+}
+html, body {
+
+    height: 100%;
+    background: #00d2ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.card {
+    max-width: 900px;
+    width: 65%;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0px 0px 23px -6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+
+/*avatar*/
+.card .card-avatar {
+    width: 40%;
+}
+
+.card .card-avatar .card-avatar_image {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.card .card-avatar .card-avatar_image img {
+    width: 104%;
+
+}
+
+
+
+/*user information style*/
+.card .card-info_mellamo {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.card .card-info_name {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.card .card-info_desc {
+    font-weight: 200;
+    margin-top: 7px;
+}
+
+.card .card-info-more {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #F5F5F5;
+    padding-top: 30px;
+}
+
+.card .card-info-more div {
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0px;
+}
+
+.card-info_title {
+    font-weight: bold;
+}
+
+/* footer style */
+.card-footer {
+    max-width: 900px;
+    width: 65%;
+    height: 74px;
+    box-shadow: inset 0px 9px 13px -8px;
+    background: #7474BF; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #7474BF , #348AC7); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #7474BF , #348AC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card-footer i, .card-footer a {
+    color: #fff;
+    font-weight: bolder;
+    margin: 0 29px;
+    font-size: 31px;
+
+}
