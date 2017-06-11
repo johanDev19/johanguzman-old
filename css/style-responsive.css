@@ -30,6 +30,10 @@
 	.about > div .text {
 		text-align: center;
 	}
+
+	.about > div .text .btn-container button {
+		margin: 10px 0px;	
+	}
 }
 
 
