@@ -101,15 +101,19 @@ main.intro {
 
 .about > div figure {
 	margin-right: 40px;
+	width: 50%;
 }
 
 .about > div figure img {
 	width: 100%;
 }
 
+.about > div .text {
+	width: 50%;
+}
+
 .about > div .text p {
 	color: #666;
-	width: 620px;
 }
 
 .about > div .text .btn-container button {

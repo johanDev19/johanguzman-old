@@ -19,6 +19,14 @@
 		flex-direction: column;
 	}
 
+	.about > div figure {
+		margin: 0px;
+	}
+
+	.about > div .text {
+	    width: 90%;
+	}
+
 	.about > div .text {
 		text-align: center;
 	}
@@ -34,6 +42,16 @@
 
 	.intro > div {
 		top: -50px;
+	}
+
+	/*about*/
+
+	.about > div figure {
+		margin: 0px;
+	}
+
+	.about > div .text {
+	    width: 90%;
 	}
 
 	/*lest work*/
