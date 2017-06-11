@@ -24,7 +24,7 @@ header.menu {
 
 .menu nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	height: 100%;
 	align-items: center;
 }
@@ -109,6 +109,12 @@ main.intro {
 
 .about > div .text p {
 	color: #666;
+	width: 620px;
+}
+
+.about > div .text .btn-container button {
+	height: 50px;
+	border-radius: 0;
 }
 
 /* ========================================================
@@ -146,12 +152,46 @@ main.intro {
 	margin-top: 25px;
 }
 
+.service .service-container article ul {
+	text-align: left;
+}
+
 
 /* ========================================================
 	=================estilo para mis trabajos============== 
 ===========================================================*/
 .myWork .work-container {
 	margin-top: 50px;
+}
+
+.myWork .work-container .image-container {
+	position: relative;
+}
+
+.myWork .work-container .image-container .hover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 0.5s;
+	display: flex;
+	flex-direction: column;
+}
+.myWork .work-container .image-container .hover p {
+	color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-shadow: 1px 3px #000;
+}
+.myWork .work-container .image-container .hover:hover {
+	opacity: 1;
 }
 
 /* ========================================================

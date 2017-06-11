@@ -23,13 +23,6 @@
 		<figure>
 			<img src="img/logo.png" alt="code guzman">
 		</figure>
-		<ul>
-			<li>Inicio</li>
-			<li>Acerca de mi</li>
-			<li>Servicios</li>
-			<li>Mis trabajos</li>
-			<li>Contactame</li>
-		</ul>
 	</nav>
 </header>
 <main class="intro">
@@ -50,10 +43,14 @@
 		<div class="text">
 			<h2>Soy <span>Johan H. Guzman Gil</span></h2>
 			<h3>Programador web y creador de ecommerce</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex praesentium dignissimos earum a laudantium quis dolore iste modi voluptate in nemo odio repellendus doloremque fugiat, perferendis libero eum! Corporis, tenetur!</p>
+			<p>Soy un joven apasionado por las tecnologías, me considero una persona KNOWMADA, curioso, inteligente y amigable. Amo con locura la programación web porque con ella soy capaz de hacer realidad mis pensamientos y mis sueños, todos mis diseños son responsivo para que sean aptas para cualquier dispositivo, me adapto a cualquier ambiente de trabajo, me encanta trabajar en equipo porque las ideas solo se perfeccionan trabajando en equipo. La mayor parte de mi tiempo me la paso aprendiendo algo nuevo, examinando cómo funcionan las cosas y el tiempo restante la dedico a implementar lo aprendido. Soy cazador de experiencias, pues, la práctica hace al maestro.</p>
 			<div class="btn-container">
-				<button class="btn btn-success">Descargar mi curriculum</button>
-				<button class="btn btn-info">Ver mis trabajos</button>
+				<a href="img/johan-cv.pdf" target="_blank">
+					<button class="btn btn-info">Descargar mi curriculum</button>
+				</a>
+				<a href="#myWork" class="inter">
+					<button class="btn btn-info">Ver mis trabajos</button>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -68,21 +65,21 @@
 						<img src="img/web.png" alt="ecommerce">
 					</figure>
 					<h5>Diseños de paginas web</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorum autem et repudiandae sunt cupiditate deserunt? Nam aliquid ea autem. Sequi culpa quos at, odio accusantium quam molestiae excepturi ex.</p>
+					<p>Le puedo crear los diseños necesarios para crear su pagina web desde logo, banner y todo el material necesario para la maquetación.</p>
 				</article>
 				<article>
 					<figure>
 						<img src="img/diseno.png" alt="ecommerce">
 					</figure>
 					<h5>Diseño grafico</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea temporibus, saepe voluptate. Nobis tempore quasi placeat, doloribus expedita provident autem nostrum non maiores, sapiente ex vero, minus numquam ab. Consectetur?</p>
+					<p>No solo diseñamos tu web, también creamos logo, tarjetas de presentación o cualquier arte que necesites.</p>
 				</article>
 				<article>
 					<figure>
 						<img src="img/programacion.png" alt="ecommerce">
 					</figure>
-					<h5>Pragramacion de paginas web</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eius molestias at optio, incidunt reiciendis nesciunt nemo magni. Repellendus autem rerum, provident incidunt, soluta labore vel repudiandae nostrum accusamus ducimus.</p>
+					<h5>Programación de paginas web</h5>
+					<p>Este es mi fuerte, Le puedo crear su pagina web personal o para su empresa. Cuento con experiencia en ecommerce y paginas empresariales.</p>
 				</article>
 			</div>
 			<div class="row">
@@ -91,35 +88,69 @@
 						<img src="img/responsive.png" alt="ecommerce">
 					</figure>
 					<h5>Diseño adaptativo (responsive)</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fugiat minus ipsam iste perspiciatis sed aliquam laboriosam cumque enim incidunt, dolor, maxime. Atque dolorem laboriosam ad, distinctio aliquid labore omnis?</p>
+					<p>Todo nuestro trabajos son adaptativo al tamaño de la pantalla que se este visualizando ya sea paginas web o logotipos.</p>
 				</article>
 				<article>
 					<figure>
 						<img src="img/Mantenimiento.png" alt="ecommerce">
 					</figure>
 					<h5>Mantenimiento de paginas web</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos consectetur, velit recusandae in, quis quos cumque optio voluptas. Quia dolores tenetur quo pariatur qui corporis, unde sed omnis odit aliquam!</p>
+					<p>
+						Ofrezco mi servicio de mantenimiento de plataformas web
+					</p>
+					<ul>
+						<li>Limpieza y optimización de carga</li>
+						<li>Backup General (más a fondo, tal vez descargar la BD y los documentos y subirlos a la nube dividida del servidor)</li>
+						<li>Revisión y supervisión del servidor para responder en cualquier momento en caso de emergencia</li>
+						<li>Escaneo de seguridad</li>
+						<li>Modificaciones y correcciones de vistas ya creadas</li>
+						<li>Crear 2 paginas o vistas  mensual</li>
+					</ul>
 				</article>
 				<article>
 					<figure>
 						<img src="img/ecommerce.png" alt="ecommerce">
 					</figure>
-					<h5>Creacion de tienda en linea (ecommerce)</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sint. Tempore nesciunt iste soluta quae magnam tempora totam ipsum earum optio praesentium necessitatibus odit quidem, consequuntur assumenda provident cumque perspiciatis!</p>
+					<h5>Creación de tienda en línea (ecommerce)</h5>
+					<p>Quieres vender online?, pues no dudes en contactarme, puedo crear su tienda online y asesorarle para que puedas vender con éxito.</p>
 				</article>
 			</div>
 
 		</div>
 	</div>
 </section>
-<section class="myWork">
+<section class="myWork" id="myWork">
 	<h2 class="text-center title">MIS TRABAJOS</h2>
-	<p class="text-center">Aqui algunos de mis trabajos</p>
+	<p class="text-center">Aquí algunos de mis trabajos</p>
 	<div class="work-container container">
 		<div class="owl-carousel owl-theme">
-		    <img class="owl-lazy" data-src="img/plazalama.jpg" alt="plaza lama">
-		    <img class="owl-lazy" data-src="img/decorativa.jpg" alt="decorativa">
-		    <img class="owl-lazy" data-src="img/cronomedical.jpg" alt="cronomedical">
+			<div class="image-container">
+		    	<img class="owl-lazy" data-src="img/plazalama.jpg" alt="plaza lama">
+		    	<div class="hover">
+		    		<p>Plaza Lama</p>
+		    		<a href="https://plazalama.com.do" target="_blank" class="btn btn-primary">
+		    			Ver pagina
+		    		</a>
+		    	</div>
+			</div>
+			<div class="image-container">
+		    	<img class="owl-lazy" data-src="img/decorativa.jpg" alt="decorativa">
+		    	<div class="hover">
+		    		<p>Decorativa</p>
+		    		<a href="https:///decorativa.com.do" class="btn btn-primary" target="_blank">
+		    			Ver pagina
+		    		</a>
+		    	</div>
+			</div>
+			<div class="image-container">
+		    	<img class="owl-lazy" data-src="img/cronomedical.jpg" alt="cronomedical">
+		    	<div class="hover">
+		    		<p>Cronomedical</p>
+		    		<a href="https://cronomedical.com" class="btn btn-primary" target="_blank">
+		    			Ver pagina
+		    		</a>
+		    	</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -130,7 +161,7 @@
 	</div>
 </section>
 <footer class="contact text-center">
-	<h2 class="title">Informacion de contacto</h2>
+	<h2 class="title">Información de contacto</h2>
 	<p>johan_ing1@hotmail.com / johan.dev19@gmail.com</p>
 	<p>849-632-3447</p>
 </footer>
