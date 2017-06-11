@@ -92,7 +92,7 @@
 				</article>
 				<article>
 					<figure>
-						<img src="img/Mantenimiento.png" alt="ecommerce">
+						<img src="img/mantenimiento.png" alt="ecommerce">
 					</figure>
 					<h5>Mantenimiento de paginas web</h5>
 					<p>
