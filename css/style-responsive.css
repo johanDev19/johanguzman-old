@@ -1,0 +1,43 @@
+/*table*/
+@media screen and (max-width: 768px) {
+	/*menu*/
+	.menu nav {
+		display: none;
+	}
+
+	/*intro*/
+	.intro aside h3 {
+		font-size: 35px;
+	}
+
+	.intro aside p {
+		font-size: 16px;
+	}
+
+	/*about*/
+	.about > div {
+		flex-direction: column;
+	}
+
+	.about > div .text {
+		text-align: center;
+	}
+}
+
+
+/*mobile*/
+@media screen and (max-width: 425px) {
+	/*intro*/
+	main.intro {
+		height: 547px;
+	}
+
+	.intro > div {
+		top: -50px;
+	}
+
+	/*lest work*/
+	.lestWork > div h2 {
+		font-size: 30px;
+	}
+}

@@ -1,112 +1,195 @@
 * {
-    font-family: inherit;
+	font-family: 'Roboto', sans-serif;
 }
-html, body {
-
-    height: 100%;
-    background: #00d2ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+section, footer {
+	padding: 100px 0px;
 }
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-
+.title {
+	letter-spacing: 4px;
+	font-weight: bold;
 }
 
-.card {
-    max-width: 900px;
-    width: 65%;
-    height: 400px;
-    background-color: #fff;
-    box-shadow: 0px 0px 23px -6px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;;
-    padding: 30px;
-    box-sizing: border-box;
+/* ========================================================
+	=================estilo para el menu=================== 
+===========================================================*/
+header.menu {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	z-index: 100;
 
 }
 
-
-/*avatar*/
-.card .card-avatar {
-    width: 40%;
+.menu nav {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
 }
 
-.card .card-avatar .card-avatar_image {
-    width: 100%;
-    margin: 0px;
-    overflow: hidden;
-
+.menu nav ul {
+	display: flex;
+	color: #fff;
+	list-style: none;
+	margin: 0px;
 }
 
-.card .card-avatar .card-avatar_image img {
-    width: 104%;
+.menu nav ul li {
+	margin: 0px 10px;
+	cursor: pointer;
+}
 
+.menu nav ul li:last-child {
+	margin: 0px;
+}
+
+/* ========================================================
+	=================estilo para el intros================== 
+===========================================================*/
+main.intro {
+	position: relative;
+	width: 100%;
+	height: 885px;
+	background-image: url("./../img/intro-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.intro:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	z-index: 1;
+}
+
+.intro > div {
+	z-index: 2;
+	position: relative;
+	top: -100px;
+}
+
+.intro aside h3 {
+	font-size: 70px;
+}
+
+.intro aside p {
+	font-size: 20px;
+}
+
+/* ========================================================
+	=================estilo para about================== 
+===========================================================*/
+
+.about > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about > div figure {
+	margin-right: 40px;
+}
+
+.about > div figure img {
+	width: 100%;
+}
+
+.about > div .text p {
+	color: #666;
+}
+
+/* ========================================================
+	=================estilo para about================== 
+===========================================================*/
+.service {
+	background-color: #f5f5f5;
+}
+.service .service-container .row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.service .service-container article {
+	margin: 40px 22px;
+	box-shadow:  1px 1px 9px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.service .service-container article figure {
+	text-align: center;
+}
+
+.service .service-container article h5 {
+	font-weight: bold;
+}
+
+.service .service-container article p {
+	color: #666;
+	margin-top: 25px;
 }
 
 
-
-/*user information style*/
-.card .card-info_mellamo {
-    font-weight: lighter;
-    font-size: 25px;
+/* ========================================================
+	=================estilo para mis trabajos============== 
+===========================================================*/
+.myWork .work-container {
+	margin-top: 50px;
 }
 
-.card .card-info_name {
-    font-weight: bolder;
-    font-size: 25px;
+/* ========================================================
+	=================estilo para tranajemos juntos========= 
+===========================================================*/
+.lestWork {
+	position: relative;
+	background-image: url("./../img/work.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.card .card-info_desc {
-    font-weight: 200;
-    margin-top: 7px;
+.lestWork:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	z-index: 1;
 }
 
-.card .card-info-more {
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid #F5F5F5;
-    padding-top: 30px;
+.lestWork > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	z-index: 3;
 }
 
-.card .card-info-more div {
-    display: flex;
-    flex-direction: column;
-    margin: 6px 0px;
-}
-
-.card-info_title {
-    font-weight: bold;
-}
-
-/* footer style */
-.card-footer {
-    max-width: 900px;
-    width: 65%;
-    height: 74px;
-    box-shadow: inset 0px 9px 13px -8px;
-    background: #7474BF; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #7474BF , #348AC7); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #7474BF , #348AC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.card-footer i, .card-footer a {
-    color: #fff;
-    font-weight: bolder;
-    margin: 0 29px;
-    font-size: 31px;
-
+.lestWork > div h2 {
+	font-size: 50px;
 }
